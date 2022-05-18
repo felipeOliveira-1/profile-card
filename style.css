@@ -25,7 +25,6 @@ body {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-
 }
 
 .main-container {
@@ -84,7 +83,8 @@ body {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: url("images/WhatsApp\ Image\ 2022-02-06\ at\ 13.44.02.jpeg") 0 1px / cover;
+  background: url("images/WhatsApp\ Image\ 2022-02-06\ at\ 13.44.02.jpeg") 0 1px /
+    cover;
 }
 
 h2 {
@@ -142,40 +142,40 @@ p {
 }
 
 /*Skilss Icon Zoom*/
-.skills .bash img:hover{
+.skills .bash img:hover {
   transform: scale(1.5);
 }
-.skills .html img:hover{
+.skills .html img:hover {
   transform: scale(1.5);
 }
-.skills .css img:hover{
+.skills .css img:hover {
   transform: scale(1.5);
 }
-.skills .js img:hover{
+.skills .js img:hover {
   transform: scale(1.5);
 }
-.skills .Python img:hover{
+.skills .Python img:hover {
   transform: scale(1.5);
 }
-.skills .Solidity img:hover{
+.skills .Solidity img:hover {
   transform: scale(1.5);
 }
-.skills .nextjs img:hover{
+.skills .nextjs img:hover {
   transform: scale(1.5);
 }
-.skills .github img:hover{
+.skills .github img:hover {
   transform: scale(1.5);
 }
-.skills .node img:hover{
+.skills .node img:hover {
   transform: scale(1.5);
 }
-.skills .docker img:hover{
+.skills .docker img:hover {
   transform: scale(1.5);
 }
-.skills .Kubernetes img:hover{
+.skills .Kubernetes img:hover {
   transform: scale(1.5);
 }
-.skills .btc img:hover{
+.skills .btc img:hover {
   transform: scale(1.5);
 }
 
@@ -191,7 +191,7 @@ p {
 }
 
 .modal_container {
-  background-color: rgba(0, 0, 0, 0.3);
+  /*background-color: rgba(0, 0, 0, 0.3);*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -199,32 +199,34 @@ p {
   opacity: 0;
   pointer-events: none;
   top: 0;
-  left:0;
-  height: 68vh;
+  left: 0px;
+  height: 77vh;
   width: 21vw;
   transition: opacity 0.3s ease;
 }
 
-.modal_container.show{
+.modal_container.show {
   opacity: 1;
   pointer-events: auto;
 }
 
-.modal{
+.modal {
+  position: inherit;
   background-color: #fff;
   border-radius: 5px;
   padding: 30px 50px;
   width: 600px;
   max-width: fit-content;
   text-align: center;
+  left: 0px;
 }
 
-.modal h3{
-  margin: 0;  
+.modal h3 {
+  margin: 0;
 }
 
 .modal p {
-  font-size: 18px;
+  font-size: 15px;
   color: #040404;
 }
 
@@ -240,7 +242,7 @@ p {
 }
 
 .modal_container_html {
-  background-color: rgba(0, 0, 0, 0.3);
+  /*background-color: rgba(0, 0, 0, 0.3);*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -248,32 +250,34 @@ p {
   opacity: 0;
   pointer-events: none;
   top: 0;
-  left:0;
+  left: 0;
   height: 68vh;
   width: 21vw;
   transition: opacity 0.3s ease;
 }
 
-.modal_container_html.show{
+.modal_container_html.show {
   opacity: 1;
   pointer-events: auto;
 }
 
-.modal_html{
+.modal_html {
+  position: inherit;
   background-color: #fff;
   border-radius: 5px;
   padding: 30px 50px;
   width: 600px;
-  max-width:fit-content; 
+  max-width: fit-content;
   text-align: center;
+  left: 0px;
 }
 
-.modal h3{
-  margin: 0;  
+.modal h3 {
+  margin: 0;
 }
 
 .modal_html p {
-  font-size: 18px;;
+  font-size: 15px;
   color: #040404;
   text-align: center;
 }
@@ -290,7 +294,6 @@ p {
 }
 
 .modal_container_css {
-  background-color: rgba(0, 0, 0, 0.3);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -298,32 +301,34 @@ p {
   opacity: 0;
   pointer-events: none;
   top: 0;
-  left:0;
+  left: 0;
   height: 68vh;
   width: 21vw;
   transition: opacity 0.3s ease;
 }
 
-.modal_container_css.show{
+.modal_container_css.show {
   opacity: 1;
   pointer-events: auto;
 }
 
-.modal_css{
+.modal_css {
+  position: inherit;
   background-color: #fff;
   border-radius: 5px;
   padding: 30px 50px;
   width: 600px;
-  max-width:fit-content; 
+  max-width: fit-content;
   text-align: center;
+  left: 0px;
 }
 
-.modal h3{
-  margin: 0;  
+.modal h3 {
+  margin: 0;
 }
 
 .modal_css p {
-  font-size: 18px;;
+  font-size: 15px;
   color: #040404;
   text-align: center;
 }
@@ -340,7 +345,6 @@ p {
 }
 
 .modal_container_js {
-  background-color: rgba(0, 0, 0, 0.3);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -348,32 +352,34 @@ p {
   opacity: 0;
   pointer-events: none;
   top: 0;
-  left:0;
+  left: 0;
   height: 68vh;
   width: 21vw;
   transition: opacity 0.3s ease;
 }
 
-.modal_container_js.show{
+.modal_container_js.show {
   opacity: 1;
   pointer-events: auto;
 }
 
-.modal_js{
+.modal_js {
+  position: inherit;
   background-color: #fff;
   border-radius: 5px;
   padding: 30px 50px;
   width: 600px;
-  max-width:fit-content; 
+  max-width: fit-content;
   text-align: center;
+  left: 0px;
 }
 
-.modal h3{
-  margin: 0;  
+.modal h3 {
+  margin: 0;
 }
 
 .modal_js p {
-  font-size: 18px;;
+  font-size: 15px;
   color: #040404;
   text-align: center;
 }
@@ -390,7 +396,6 @@ p {
 }
 
 .modal_container_python {
-  background-color: rgba(0, 0, 0, 0.3);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -398,32 +403,34 @@ p {
   opacity: 0;
   pointer-events: none;
   top: 0;
-  left:0;
+  left: 0;
   height: 68vh;
   width: 21vw;
   transition: opacity 0.3s ease;
 }
 
-.modal_container_python.show{
+.modal_container_python.show {
   opacity: 1;
   pointer-events: auto;
 }
 
-.modal_python{
+.modal_python {
+  position: inherit;
   background-color: #fff;
   border-radius: 5px;
   padding: 30px 50px;
   width: 600px;
-  max-width:fit-content; 
+  max-width: fit-content;
   text-align: center;
+  left: 0px;
 }
 
-.modal h3{
-  margin: 0;  
+.modal h3 {
+  margin: 0;
 }
 
 .modal_python p {
-  font-size: 18px;;
+  font-size: 15px;
   color: #040404;
   text-align: center;
 }
@@ -440,7 +447,6 @@ p {
 }
 
 .modal_container_solidity {
-  background-color: rgba(0, 0, 0, 0.3);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -448,37 +454,39 @@ p {
   opacity: 0;
   pointer-events: none;
   top: 0;
-  left:0;
+  left: 0;
   height: 68vh;
   width: 21vw;
   transition: opacity 0.3s ease;
 }
 
-.modal_container_solidity.show{
+.modal_container_solidity.show {
   opacity: 1;
   pointer-events: auto;
 }
 
-.modal_solidity{
+.modal_solidity {
+  position: inherit;
   background-color: #fff;
   border-radius: 5px;
   padding: 30px 50px;
   width: 600px;
-  max-width:fit-content; 
+  max-width: fit-content;
   text-align: center;
+  left: 0px;
 }
 
-.modal h3{
-  margin: 0;  
+.modal h3 {
+  margin: 0;
 }
 
 .modal_solidity p {
-  font-size: 18px;;
+  font-size: 15px;
   color: #040404;
   text-align: center;
 }
 
-/*Modal Solidity*/
+/*Modal Next*/
 .button_next {
   background-color: #47a386;
   border: 0;
@@ -490,7 +498,6 @@ p {
 }
 
 .modal_container_next {
-  background-color: rgba(0, 0, 0, 0.3);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -498,32 +505,34 @@ p {
   opacity: 0;
   pointer-events: none;
   top: 0;
-  left:0;
+  left: 0;
   height: 68vh;
   width: 21vw;
   transition: opacity 0.3s ease;
 }
 
-.modal_container_next.show{
+.modal_container_next.show {
   opacity: 1;
   pointer-events: auto;
 }
 
-.modal_next{
+.modal_next {
+  position: inherit;
   background-color: #fff;
   border-radius: 5px;
   padding: 30px 50px;
   width: 600px;
-  max-width:fit-content; 
+  max-width: fit-content;
   text-align: center;
+  left: 0px;
 }
 
-.modal h3{
-  margin: 0;  
+.modal h3 {
+  margin: 0;
 }
 
 .modal_next p {
-  font-size: 18px;;
+  font-size: 15px;
   color: #040404;
   text-align: center;
 }
@@ -540,7 +549,6 @@ p {
 }
 
 .modal_container_git {
-  background-color: rgba(0, 0, 0, 0.3);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -548,32 +556,34 @@ p {
   opacity: 0;
   pointer-events: none;
   top: 0;
-  left:0;
+  left: 0;
   height: 68vh;
   width: 21vw;
   transition: opacity 0.3s ease;
 }
 
-.modal_container_git.show{
+.modal_container_git.show {
   opacity: 1;
   pointer-events: auto;
 }
 
-.modal_git{
+.modal_git {
+  position: inherit;
   background-color: #fff;
   border-radius: 5px;
   padding: 30px 50px;
   width: 600px;
-  max-width:fit-content; 
+  max-width: fit-content;
   text-align: center;
+  left: 0px;
 }
 
-.modal h3{
-  margin: 0;  
+.modal h3 {
+  margin: 0;
 }
 
 .modal_git p {
-  font-size: 18px;;
+  font-size: 15px;
   color: #040404;
   text-align: center;
 }
@@ -590,7 +600,6 @@ p {
 }
 
 .modal_container_node {
-  background-color: rgba(0, 0, 0, 0.3);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -598,37 +607,39 @@ p {
   opacity: 0;
   pointer-events: none;
   top: 0;
-  left:0;
+  left: 0;
   height: 68vh;
   width: 21vw;
   transition: opacity 0.3s ease;
 }
 
-.modal_container_node.show{
+.modal_container_node.show {
   opacity: 1;
   pointer-events: auto;
 }
 
-.modal_node{
+.modal_node {
+  position: inherit;
   background-color: #fff;
   border-radius: 5px;
   padding: 30px 50px;
   width: 600px;
-  max-width:fit-content; 
+  max-width: fit-content;
   text-align: center;
+  left: 0px;
 }
 
-.modal h3{
-  margin: 0;  
+.modal h3 {
+  margin: 0;
 }
 
 .modal_node p {
-  font-size: 18px;;
+  font-size: 15px;
   color: #040404;
   text-align: center;
 }
 
-/*Modal NodeJs*/
+/*Modal Docker*/
 .button_docker {
   background-color: #47a386;
   border: 0;
@@ -640,7 +651,6 @@ p {
 }
 
 .modal_container_docker {
-  background-color: rgba(0, 0, 0, 0.3);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -648,32 +658,34 @@ p {
   opacity: 0;
   pointer-events: none;
   top: 0;
-  left:0;
+  left: 0;
   height: 68vh;
   width: 21vw;
   transition: opacity 0.3s ease;
 }
 
-.modal_container_docker.show{
+.modal_container_docker.show {
   opacity: 1;
   pointer-events: auto;
 }
 
-.modal_docker{
+.modal_docker {
+  position: inherit;
   background-color: #fff;
   border-radius: 5px;
   padding: 30px 50px;
   width: 600px;
-  max-width:fit-content; 
+  max-width: fit-content;
   text-align: center;
+  left: 0px;
 }
 
-.modal h3{
-  margin: 0;  
+.modal h3 {
+  margin: 0;
 }
 
 .modal_docker p {
-  font-size: 18px;;
+  font-size: 15px;
   color: #040404;
   text-align: center;
 }
@@ -690,7 +702,6 @@ p {
 }
 
 .modal_container_kubernetes {
-  background-color: rgba(0, 0, 0, 0.3);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -698,32 +709,34 @@ p {
   opacity: 0;
   pointer-events: none;
   top: 0;
-  left:0;
+  left: 0;
   height: 68vh;
   width: 21vw;
   transition: opacity 0.3s ease;
 }
 
-.modal_container_kubernetes.show{
+.modal_container_kubernetes.show {
   opacity: 1;
   pointer-events: auto;
 }
 
-.modal_kubernetes{
+.modal_kubernetes {
+  position: inherit;
   background-color: #fff;
   border-radius: 5px;
   padding: 30px 50px;
   width: 600px;
-  max-width:fit-content; 
+  max-width: fit-content;
   text-align: center;
+  left: 0px;
 }
 
-.modal h3{
-  margin: 0;  
+.modal h3 {
+  margin: 0;
 }
 
 .modal_kubernetes p {
-  font-size: 18px;;
+  font-size: 15px;
   color: #040404;
   text-align: center;
 }
@@ -740,7 +753,6 @@ p {
 }
 
 .modal_container_btc {
-  background-color: rgba(0, 0, 0, 0.3);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -748,32 +760,34 @@ p {
   opacity: 0;
   pointer-events: none;
   top: 0;
-  left:0;
+  left: 0;
   height: 68vh;
   width: 21vw;
   transition: opacity 0.3s ease;
 }
 
-.modal_container_btc.show{
+.modal_container_btc.show {
   opacity: 1;
   pointer-events: auto;
 }
 
-.modal_btc{
+.modal_btc {
+  position: inherit;
   background-color: #fff;
   border-radius: 5px;
   padding: 30px 50px;
   width: 600px;
-  max-width:fit-content; 
+  max-width: fit-content;
   text-align: center;
+  left: 0px;
 }
 
-.modal h3{
-  margin: 0;  
+.modal h3 {
+  margin: 0;
 }
 
 .modal_btc p {
-  font-size: 18px;;
+  font-size: 15px;
   color: #040404;
   text-align: center;
 }
