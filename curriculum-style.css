@@ -10,8 +10,7 @@ body {
 }
 
 * {
-  margin: 0.5rem;
-  padding: 0;
+  margin: 0.5rem; 
   box-sizing: border-box;
   background-size: cover;
 }
@@ -20,6 +19,11 @@ p {
   font-size: 17px;
   list-style-type: none;
   text-decoration: none;
+}
+
+/*Sumário de Qualificações*/
+section .qualificacoes{
+  text-align: justify;
 }
 
 /*Titulo e subtitulo*/
@@ -37,7 +41,8 @@ p {
 
 ul.a {
   list-style-type: none;
-  columns: 2;
+  columns: 2;  
+  width: 100%; 
 }
 
 .formacao {
