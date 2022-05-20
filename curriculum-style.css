@@ -16,6 +16,13 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   background-size: cover;
 }
 
+p{
+  font-size: 17px;
+  list-style-type: none;   
+  text-decoration: none;
+}
+
+/*Titulo e subtitulo*/
 .titulo {
   text-align: center;
   margin: auto; 
@@ -26,19 +33,13 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   margin: auto;  
 }
 
+/*Certificações*/
+
 .coluna {
-  float: left;
+  float:left;
   width: 50%;
 }
 
-p {
-  font-size: 17px;
-}
-
-li {
-  font-size: 17px;
-  list-style-type: none; 
-}
 .formacao {
   margin-left: 20px;
 }
