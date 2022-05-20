@@ -39,9 +39,7 @@ body {
 /*Certificações*/
 ul.a {
   font-size: 17px;
-  list-style-type: none;
-  columns: 2;  
-  width: 100%;  
+  list-style-type: none;    
 }
 
 /*Botão voltar*/
