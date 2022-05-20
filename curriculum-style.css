@@ -14,18 +14,6 @@ body {
   box-sizing: border-box;
   background-size: cover;
   padding: 0;
-
-}
-
-p {
-  font-size: 17px;
-  list-style-type: none;
-  text-decoration: none;
-}
-
-/*Sumário de Qualificações*/
-section .qualificacoes{
-  text-align: justify;
 }
 
 /*Titulo e subtitulo*/
@@ -33,24 +21,30 @@ section .qualificacoes{
   text-align: center;
   margin: auto;
 }
-
 .subtitulo {
   text-align: center;
   margin: auto;
 }
 
-/*Certificações*/
-
-ul.a {
-  list-style-type: none;
-  columns: 2;  
-  width: 100%; 
-}
-
+/*Formação*/
 .formacao {
   margin-left: 20px;
 }
 
+/*Sumário de Qualificações*/
+.qualificacoes{
+  text-align: justify;
+}
+
+/*Certificações*/
+ul.a {
+  font-size: 17px;
+  list-style-type: none;
+  columns: 2;  
+  width: 70%;  
+}
+
+/*Botão voltar*/
 a {
   text-decoration: none;
   display: inline-block;
