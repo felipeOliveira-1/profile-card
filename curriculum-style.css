@@ -37,6 +37,12 @@ body {
 }
 
 /*Certificações*/
+.w3-button {
+  width: 30%;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
 ul.a {
   font-size: 17px;
   list-style-type: none;    
