@@ -28,7 +28,7 @@ body {
 
 /*Sumário de Qualificações*/
 .qualificacoes {
-  text-align: justify;
+  text-align: left;
 }
 
 /*Certificações*/
@@ -42,6 +42,7 @@ body {
   padding: 10px;
 }
 .w3-button {
+  text-align: center;
   margin-bottom: 10px;
   border: none;
   cursor: pointer;
