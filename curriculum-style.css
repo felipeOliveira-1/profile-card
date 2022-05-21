@@ -26,28 +26,36 @@ body {
   margin: auto;
 }
 
-/*Formação*/
-.formacao {
-  margin-left: 20px;
-}
-
 /*Sumário de Qualificações*/
 .qualificacoes {
   text-align: justify;
 }
 
 /*Certificações*/
+.certificacao{
+  text-align: center;
+}
+.content {
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+}
 .w3-button {
   margin-bottom: 10px;
   border: none;
   cursor: pointer;
   font-size: 17px;
   border-radius: 5px;
-  width: 340px;  
+  width: 340px;
+}
+ul.a {
+  list-style-type: none;
 }
 
-ul.a { 
-  list-style-type: none;  
+/*Formação*/
+.formacao {
+  margin-left: 20px;
 }
 
 /*Botão voltar*/
