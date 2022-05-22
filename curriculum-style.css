@@ -50,6 +50,11 @@ body {
   text-align: left;
 }
 
+/*Resumo*/
+#txt{
+  font-size: 17px;
+}
+
 /*Certificações*/
 .certificacao{
   text-align: center;
