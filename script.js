@@ -1,3 +1,9 @@
+/*Dark Mode */
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+
 /*Bash*/
 const open = document.getElementById("open");
 const modal_container = document.getElementById("modal_container");
