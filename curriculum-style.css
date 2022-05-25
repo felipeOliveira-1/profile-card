@@ -48,7 +48,7 @@ body {
 #dark {
   border: none;
   width: 40px;
-  transition-duration: 0.3s;
+  transition-duration: 0.2s;
   border-radius: 50%;
   font-size: 5px;
   background-color: white;
@@ -65,8 +65,6 @@ body {
   margin: auto;
 }
 
-.subtitulo:hover img {
-}
 
 /*Sumário de Qualificações*/
 .qualificacoes {
