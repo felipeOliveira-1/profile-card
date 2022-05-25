@@ -48,7 +48,7 @@ body {
 #dark {
   border: none;
   width: 40px;
-  transition-duration: 0.4s;
+  transition-duration: 0.3s;
   border-radius: 50%;
   font-size: 5px;
   background-color: white;
